@@ -5,7 +5,7 @@ module.exports = withModuleFederationPlugin({
   name: 'layout',
 
   exposes: {
-    './Component': './projects/layout/src/app/app.component.ts',
+    './Module': './projects/layout/src/app/layout/layout.module.ts',
   },
 
   shared: {
