@@ -6,6 +6,7 @@ module.exports = withModuleFederationPlugin({
 
   exposes: {
     './Component/Header': './projects/layout/src/app/header/header.component.ts',
+    './Component/Menu': './projects/layout/src/app/menu/menu.component.ts',
   },
 
   shared: {
